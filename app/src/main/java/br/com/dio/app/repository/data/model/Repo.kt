@@ -1,4 +1,4 @@
-package br.com.dio.app.repositories.data.model
+package br.com.dio.app.repository.data.model
 
 data class Repo (
     val id: Long,

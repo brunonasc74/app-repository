@@ -1,6 +1,6 @@
-package br.com.dio.app.repositories.data.services
+package br.com.dio.app.repository.data.services
 
-import br.com.dio.app.repositories.data.model.Repo
+import br.com.dio.app.repository.data.model.Repo
 import retrofit2.http.GET
 import retrofit2.http.Path
 

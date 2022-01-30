@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="br.com.dio.app.repositories">
+    package="br.com.dio.app.repository">
 
     <application
-        android:name=".App"
+        android:name="br.com.dio.app.repository.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppRepositories">
 
-        <activity android:name=".ui.MainActivity">
+        <activity android:name="br.com.dio.app.repository.ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

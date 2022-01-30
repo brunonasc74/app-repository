@@ -1,4 +1,4 @@
-package br.com.dio.app.repositories.core
+package br.com.dio.app.repository.core
 
 import android.app.Activity
 import android.content.Context
