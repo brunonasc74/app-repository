@@ -13,7 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppRepositories">
 
-        <activity android:name="br.com.dio.app.repository.ui.MainActivity">
+        <activity android:name="br.com.dio.app.repository.ui.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
