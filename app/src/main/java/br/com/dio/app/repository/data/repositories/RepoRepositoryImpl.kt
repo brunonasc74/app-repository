@@ -12,7 +12,7 @@ class RepoRepositoryImpl(private val service : GitHubService) : RepoRepository {
             val repoList = service.listRepositories(user)
             emit(repoList)
         } catch (ex: HttpException) {
-            throw RemoteException(ex.message ?: "It was not possible to search at the moment.")
+            throw RemoteException(ex.message ?: "It was not possible to search at the moment!")
         }
     }
 }
